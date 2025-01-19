@@ -6,6 +6,9 @@ body {
     color: #f5deb3; /* Wheat color for text contrast */
     margin: 0;
     padding: 0;
+    background-image: url('paper-texture.png'); /* Subtle paper texture */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1, h2 {
@@ -15,6 +18,8 @@ h1, h2 {
     text-align: center;
     padding-bottom: 5px;
     margin: 20px 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px #000; /* Subtle embossed look */
 }
 
 h1 {
@@ -29,11 +34,13 @@ a {
     color: #d2b48c; /* Tan for vintage look */
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 a:hover {
     text-decoration: underline;
     color: #deb887; /* Burlywood for hover */
+    transition: color 0.3s ease-in-out;
 }
 
 hr {
@@ -45,14 +52,24 @@ hr {
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: none;
     padding-left: 0;
     text-align: center;
 }
 
 li {
-    margin: 10px 0;
-    font-size: 1.1rem;
+    margin: 20px 0; /* Increased gap between items */
+    font-size: 1.2rem;
+    position: relative;
+    padding-left: 25px;
+}
+
+li:before {
+    content: '\2605'; /* Star symbol for list bullet */
+    color: #d2b48c;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 /* Button styles for future enhancements */
@@ -65,10 +82,13 @@ button {
     font-size: 1rem;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Tactile depth */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
 }
 
 button:hover {
     background-color: #556b2f; /* Dark olive green */
+    transform: scale(1.05);
 }
 
 /* Responsive Design */
@@ -83,5 +103,13 @@ button:hover {
 
     h2 {
         font-size: 1.4rem;
+    }
+
+    ul {
+        padding: 0 10px;
+    }
+
+    li {
+        margin: 15px 0;
     }
 }
