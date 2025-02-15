@@ -6,7 +6,6 @@ body {
     color: #f5deb3; /* Wheat color for text contrast */
     margin: 0;
     padding: 0;
-    background-image: url('paper-texture.png'); /* Subtle paper texture */
     background-size: cover;
     background-attachment: fixed;
 }
