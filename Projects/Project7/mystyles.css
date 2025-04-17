@@ -1,0 +1,125 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #F5F5F0;
+        color: #324F00;
+    }
+    h1 {
+        background-color: #C2EE77;
+        color: #324F00;
+    }
+    h2, h3 {
+        color: #801D15;
+    }
+
+    p {
+        font-size: 1.1em;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+    }
+    a {
+        color: #550600;
+        background-color: #CFEC9E;
+        text-decoration: none;
+        padding: 3px;
+        display: inline-block;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    a:link {
+        text-decoration-thickness: 2px;
+    }
+    
+    .img-banner {
+
+
+    }
+
+    ul {
+        list-style-type: square;
+        margin-left: 20px;
+        font-size: 1.2em;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    /* table style */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 1.2em;
+        box-shadow: 5px 5px 5px #888888;
+
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        border-radius: 8px;
+        text-align: left;
+        color: #801D15;
+    }
+
+     td {
+         color: #324F00;
+         border-bottom: 1px solid #6a9329;
+     }
+
+     #header {
+         color: #e3f5cd;
+         background-color: #324F00;
+         font-weight: bold;
+         font-size: 1.2em;
+         padding: 10px;
+         border-radius: 8px;
+         text-align: left;
+         width: 900px;
+     }
+
+     .checker_1 {
+         background-color: #ccf38e;
+         color: #324F00;
+     }
+
+     .checker_2 {
+         background-color: #d7eab8;
+         color: #324F00;
+     }
+
+
+     .container {
+         width: 900px;
+         margin: 0 auto;
+     }
+
+     .section {
+        font-size: 1.1em;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+        width: 900px;
+
+
+     }
+
+     article {
+         width: 800px;
+     }
+
+     .nav {
+         
+     }
+
+     .image-container {
+         float: right;
+         margin-bottom: 20px;
+         border-radius: 10px;
+         border: 5px solid #D4726A;
+         box-shadow: 5px 5px 5px #888888;
+     }
+
+     .footer {
+         width: 900px;
+     }
